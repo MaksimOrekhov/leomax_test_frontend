@@ -1,0 +1,71 @@
+.term {
+  &__wrapper {
+    border-bottom: 1px solid #edf1f4;
+  }
+  &__container {
+    padding: 50px 60px 55px 60px;
+    background-color: #fff;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  &__list {
+    display: flex;
+    margin-top: 35px;
+  }
+  &__item {
+    padding: 10px 35px 10px 10px;
+    margin-right: 27px;
+    position: relative;
+    border: 1px dotted #818181;
+    cursor: pointer;
+    &:hover {
+      background-color: #f9de91;
+      border-color: transparent;
+    }
+    &-active {
+      background-color: #f9de91;
+      border: 1px dotted transparent;
+    }
+  }
+  &__image {
+    position: absolute;
+  }
+  &__text {
+    margin-top: 20px;
+    color: #5c5d61;
+    max-width: 520px;
+    margin-bottom: 23px;
+  }
+}
+
+.item {
+  &__price {
+    margin-top: 13px;
+    color: #855549;
+  }
+  &__month {
+    margin-top: 13px;
+    &-price {
+      font-size: 30px;
+      margin-right: 13px;
+    }
+  }
+}
+
+.auto__subscribe {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  &-label {
+    margin-left: 10px;
+  }
+}
+
+.ofert {
+  margin-top: 13px;
+  color: #5c5d61;
+  margin-left: 25px;
+  max-width: 700px;
+}

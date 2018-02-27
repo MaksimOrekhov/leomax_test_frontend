@@ -1,0 +1,33 @@
+.amount__wrapper {
+  border-bottom: 1px solid #edf1f4; }
+
+.amount__container {
+  padding: 50px 60px 55px 60px;
+  background-color: #fff; }
+
+.amount__title {
+  font-weight: bold;
+  font-size: 20px; }
+
+.amount__summ {
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 40px; }
+
+.amount__month {
+  margin-top: 20px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #53585b; }
+
+.discount {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px; }
+  .discount__label {
+    margin-left: 10px; }
+  .discount__text {
+    color: #53585b;
+    margin-left: 25px;
+    font-size: 14px; }

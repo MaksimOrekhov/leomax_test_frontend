@@ -1,0 +1,40 @@
+.club__wrapper {
+  width: 75%;
+  max-width: 930px;
+  margin: 20px auto; }
+
+.club__header {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #edf1f4; }
+
+.club__footer {
+  background-color: #edf1f4;
+  padding: 40px 0 25px 60px; }
+
+.payment__button {
+  padding: 20px 37px;
+  border: transparent;
+  background-color: #fad870;
+  cursor: pointer;
+  border-radius: 40px; }
+
+.footer__text {
+  display: flex;
+  color: #7c8083;
+  font-size: 12px;
+  margin-top: 40px; }
+
+.comission {
+  margin-right: 20px;
+  max-width: 270px;
+  display: flex;
+  align-items: center; }
+
+.protection {
+  max-width: 220px;
+  display: flex;
+  align-items: center; }
+
+.footer__image {
+  margin-right: 10px; }
